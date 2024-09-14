@@ -1,3 +1,13 @@
+# LLM Demo Spec: Todo App
+This is an example specification to try building different ways.
+Try it with:
+
+- aider
+- continue.dev
+- cursor.dev
+
+By running through the same build on different tools, we can showcase and understand the different tools.
+
 # PyToDo: Terminal Todo App Specification
 
 ## Overview
@@ -116,3 +126,7 @@ prettytable==2.5.0
 - Add search functionality
 - Create categories or tags for better organization
 - Implement data backup and restore features
+
+### Pomodor Feature
+Add a pomodoro timer that will run against a particular item and track the work done and date it was done in another `workdone.csv` file.
+Add a screen to show all of the work done.
